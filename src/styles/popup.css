@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 300px;
+	height: 75px;
+	font-family: Trebuchet MS, Arial, Tahoma;
+	cursor: default;
+}
+
+.loader {
+	position: fixed;
+	background: #fff;
+	width: 300px;
+	height: 100%;
+	text-align: center;
+	padding-top: 75px;
+	top: 0;
+	left: 0;
+}
+
+.last-session-stat {
+	margin-top: 10px;
+	border: 1px solid #e4e4e4;
+	border-radius: 7px;
+	float: left;
+	width: 298px;
+}
+
+.last-session-stat > .header {
+	background: #f5f9fa; /* Old browsers */
+	background: -moz-linear-gradient(top, #f5f9fa 0%, #e9edec 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f9fa), color-stop(99%,#e9edec)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f5f9fa 0%,#e9edec 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f5f9fa 0%,#e9edec 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f5f9fa 0%,#e9edec 99%); /* IE10+ */
+	background: linear-gradient(to bottom, #f5f9fa 0%,#e9edec 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f9fa', endColorstr='#e9edec',GradientType=0 ); /* IE6-9 */
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	padding: 9px;
+	color: #565656;
+	font-size: 18px;
+}
+
+.st {
+	float: left;
+	width: 148px;
+}
+
+.st-info {
+	padding: 7px;
+	text-align: center;
+	color: #565656;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.st-title {
+	background: #f7f7f7;
+	color: #939393;
+	padding: 7px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.body-stat {
+	float: left;
+	color: #444;
+}
+
+.addinfo {
+	width: 100%;
+	padding-top: 7px;
+	font-size: 16px;
+}
+
+.addinfo tr {
+	line-height: 22px;
+	height: 22px;
+}
+
+.key_i {
+	text-align: right;
+	padding-right: 10px;
+	width: 79px;
+	font-weight: bold;
+	border-right: 1px dotted #ccc;
+}
+
+.val_i {
+	font-style: italic;
+	padding-left: 10px;
+}
+
+.button-panel {
+	text-align: center;
+	margin-top: 7px;
+	padding: 10px;
+	background: #CDCDCD;
+	border-radius: 7px;
+	font-size: 15px;
+	color: #4D4D4D;
+	cursor: pointer;
+	text-shadow: 1px 1px 0px #fff;
+	margin-bottom: 5px;
+}

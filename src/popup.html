@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>InterLink</title>
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/popup.js"></script>
+	<link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+	<div class="loader">
+		<img src="loader.gif" alt="получения данных...">
+	</div>
+	<div class="wrap">
+		<div class="last-session-stat">
+			<div class="header">
+				Статистика сессии:
+			</div>
+
+			<div class="body-stat">
+				<div class="st" style="border-right: 1px solid #e4e4e4;">
+					<div class="st-info" id="st_get">0.00 GB</div>
+					<div class="st-title" style="border-bottom-left-radius: 7px;">Получено</div>
+				</div>
+				<div class="st">
+					<div class="st-info" id="st_send">0.00 GB</div>
+					<div class="st-title" style="border-bottom-right-radius: 7px;">Отправлено</div>
+				</div>
+			</div>
+
+		</div>
+		<table class="addinfo">
+			<tr>
+				<td class="key_i">UID: </td>
+				<td id="uid" class="val_i"></td>
+			</tr>
+			<tr>
+				<td class="key_i">На счету: </td>
+				<td id="depsit" class="val_i"></td>
+			</tr>
+			<tr>
+				<td class="key_i">IP: </td>
+				<td id="ip" class="val_i"></td>
+			</tr>
+		</table>
+		<div class="button-panel">Открыть панель!</div>
+	</div>
+</body>
+</html>

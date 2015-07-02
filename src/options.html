@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>InterLink - настройки</title>
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/options.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/paper/bootstrap.min.css">
+	<style>
+		.form {
+			margin: auto;
+			margin-top: 15px;
+		}
+		.button-save td {
+			text-align: right;
+			padding-top: 18px;
+		}
+		.setting-label {
+			text-align: right;
+			padding-right: 25px;
+			font-size: 17px;
+			font-weight: bold;
+			color: #444;
+		}
+		.input-settings {
+			width: 500px;
+		}
+		.msg-al {
+			width: 300px;
+			position: fixed;
+			bottom: 10px;
+			right: 10px;
+			display: none;
+			font-size: 17px;
+		}
+	</style>
+</head>
+<body>
+	<table class="form">
+		<tr>
+			<td colspan="2" style="padding-bottom: 15px;">
+				<h1>Настройка подключения</h1>		
+			</td>
+		</tr>
+		<tr class="settings-field">
+			<td class="setting-label">
+				<label for="ip" class="control-label">IP адрес модема: </label>
+			</td>
+			<td class="input-settings">
+				<input type="text" id="ip" class="form-control">
+			</td>
+		</tr>
+		<tr class="settings-field">
+			<td class="setting-label">
+				<label for="username" class="control-label">Имя пользователя: </label>
+			</td>
+			<td class="input-settings">
+				<input type="text" id="username" class="form-control">
+			</td>
+		</tr>
+		<tr class="settings-field">
+			<td class="setting-label">
+				<label for="password" class="control-label">Пароль: </label>
+			</td>
+			<td class="input-settings">
+				<input type="password" id="password" class="form-control">
+			</td>
+		</tr>
+		<tr class="button-save">
+			<td colspan="2">
+				<button id="save" class="btn btn-primary btn-lg">Сохранить!</button>
+			</td>
+		</tr>
+	</table>
+
+	<div class="alert alert-success msg-al">
+		<strong>Успешно!</strong>
+		Настройки сохранены!
+	</div>
+</body>
+</html>
